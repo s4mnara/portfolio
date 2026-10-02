@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Portfólio de Samara Araújo — Desenvolvedora Full-Stack Jr" />
+  <meta name="theme-color" content="#050505" />
   <title>Samara Araújo | Portfólio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,14 +30,17 @@
   <!-- HERO -->
   <section class="hero" id="inicio">
     <div class="hero-inner">
-      <div class="hero-left">
-        <img
-          class="avatar"
-          src="https://avatars.githubusercontent.com/u/183166680?v=4"
-          alt="Foto de Samara Araújo"
-          width="88"
-          height="88"
-        />
+      <div class="hero-left reveal">
+        <div class="avatar-wrap">
+          <img
+            class="avatar"
+            src="https://avatars.githubusercontent.com/u/183166680?v=4"
+            alt="Foto de Samara Araújo"
+            width="100"
+            height="100"
+          />
+        </div>
+        <p class="hero-eyebrow">Disponível para oportunidades</p>
         <h1 class="hero-name">Samara Araújo</h1>
         <p class="hero-bio">
           Desenvolvedora <strong>Full Stack</strong> com experiência prática em produtos SaaS,
@@ -70,7 +74,7 @@
         </div>
       </div>
 
-      <div class="hero-right">
+      <div class="hero-right reveal reveal-delay-2">
         <div class="editor-window" role="img" aria-label="Mock de código TypeScript com dados profissionais">
           <div class="editor-titlebar">
             <span class="dot red"></span>
@@ -104,10 +108,11 @@
 
   <!-- PROJETOS -->
   <section class="section" id="projetos">
-    <h2 class="section-title">Projetos</h2>
+    <h2 class="section-title reveal">Projetos</h2>
+    <p class="section-subtitle reveal reveal-delay-1">Alguns trabalhos e experimentos que desenvolvi</p>
     <div class="projects-grid">
 
-      <article class="project-card">
+      <article class="project-card reveal">
         <div class="project-preview preview-ecommerce" aria-hidden="true">
           <div class="mock-ui">
             <div class="mock-bar"></div>
@@ -138,7 +143,7 @@
         </div>
       </article>
 
-      <article class="project-card">
+      <article class="project-card reveal reveal-delay-1">
         <div class="project-preview preview-diario" aria-hidden="true">
           <div class="mock-ui">
             <div class="mock-sidebar"></div>
@@ -170,7 +175,7 @@
         </div>
       </article>
 
-      <article class="project-card">
+      <article class="project-card reveal">
         <div class="project-preview preview-pubsub" aria-hidden="true">
           <div class="mock-ui mock-pubsub">
             <div class="mock-node">Pub</div>
@@ -200,7 +205,7 @@
         </div>
       </article>
 
-      <article class="project-card">
+      <article class="project-card reveal reveal-delay-1">
         <div class="project-preview preview-macro" aria-hidden="true">
           <div class="mock-ui mock-calc">
             <div class="mock-display">TDEE</div>
@@ -230,7 +235,7 @@
         </div>
       </article>
 
-      <article class="project-card">
+      <article class="project-card reveal">
         <div class="project-preview preview-api" aria-hidden="true">
           <div class="mock-ui mock-api">
             <div class="mock-endpoint"><span class="method">GET</span> /despesas</div>
@@ -258,7 +263,7 @@
         </div>
       </article>
 
-      <article class="project-card">
+      <article class="project-card reveal reveal-delay-1">
         <div class="project-preview preview-board" aria-hidden="true">
           <div class="mock-ui mock-board">
             <div class="mock-col"><div class="mock-chip"></div><div class="mock-chip"></div></div>
@@ -275,7 +280,7 @@
           </div>
           <div class="project-links">
             <a href="https://github.com/s4mnara/Board" target="_blank" rel="noopener noreferrer">
-              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.73.083-.73 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.76-1.605-2.665-.303-5.466-1.332-5.466-5.93 0-1.31.468-2.382 1.236-3.222-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.3 1.23.96-.267 1.98-.4 3-.405 1.02.005 2.04.138 3 .405 2.29-1.552 3.297-1.23 3.297-1.23.653 1.652.242 2.873.118 3.176.77.84 1.235 1.912 1.235 3.222 0 4.61-2.807 5.624-5.48 5.921.43.372.814 1.102.814 2.222 0 1.606-.015 2.896-.015 3.286 0 .32.216.694.825.576C20.565 21.796 24 17.297 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.73.083-.73 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.76-1.605-2.665-.303-5.466-1.332-5.466-5.93 0-1.31.468-2.382 1.236-3.222-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.3 1.23.96-.267 1.98-.4 3-.405 1.02.005 2.04.138 3 .405 2.29-1.552 3.297-1.23 3.297-1.23.653 1.652.242 2.873.118 3.176.77.84 1.235 1.912 1.235 3.222 0 1.606-.015 2.896-.015 3.286 0 .32.216.694.825.576C20.565 21.796 24 17.297 24 12c0-6.63-5.37-12-12-12z"/></svg>
               Código
             </a>
             <span class="link-disabled" title="Demo indisponível">
@@ -291,9 +296,10 @@
 
   <!-- SOBRE -->
   <section class="section" id="sobre">
-    <h2 class="section-title">Sobre</h2>
+    <h2 class="section-title reveal">Sobre</h2>
+    <p class="section-subtitle reveal reveal-delay-1">Trajetória, formação e certificações</p>
     <div class="about-grid">
-      <div class="about-card">
+      <div class="about-card reveal">
         <h3>Quem sou</h3>
         <p>
           Sou Samara Araújo Almeida, 20 anos, de Pernambuco. Desenvolvedora Full-Stack Jr
@@ -304,7 +310,7 @@
         <p class="about-meta">Pernambuco · 20 anos · Disponível para oportunidades</p>
       </div>
 
-      <div class="about-card">
+      <div class="about-card reveal reveal-delay-1">
         <h3>Experiência</h3>
         <ul class="timeline">
           <li>
@@ -322,7 +328,7 @@
         </ul>
       </div>
 
-      <div class="about-card">
+      <div class="about-card reveal">
         <h3>Formação</h3>
         <ul class="timeline">
           <li>
@@ -336,7 +342,7 @@
         </ul>
       </div>
 
-      <div class="about-card">
+      <div class="about-card reveal reveal-delay-1">
         <h3>Certificações</h3>
         <ul class="certs">
           <li>Code Girls 2025 — DIO (AWS)</li>
@@ -350,9 +356,10 @@
 
   <!-- CONTATO -->
   <section class="section" id="contato">
-    <h2 class="section-title">Contato</h2>
-    <div class="contact-card">
-      <p class="contact-intro">Vamos conversar? Entre em contato pelos canais abaixo.</p>
+    <h2 class="section-title reveal">Contato</h2>
+    <p class="section-subtitle reveal reveal-delay-1">Vamos conversar sobre o próximo projeto</p>
+    <div class="contact-card reveal">
+      <p class="contact-intro">Entre em contato pelos canais abaixo.</p>
       <div class="contact-links">
         <a href="mailto:samaraalmeidaah@gmail.com" class="contact-item">
           <span class="contact-icon" aria-hidden="true">✉</span>
