@@ -1,5 +1,7 @@
 # Portfólio — Samara Araújo
 
+Acesse aqui ➡️ https://s4mnara.github.io/portfolio/
+
 Site estático (HTML/CSS/JS) do portfólio pessoal.
 
 ## Como abrir
