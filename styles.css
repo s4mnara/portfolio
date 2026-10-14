@@ -1115,3 +1115,21 @@ img {
     transition: none;
   }
 }
+
+/* ========== Visit counter ========== */
+.visit-counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  color: var(--accent-light);
+  background: var(--accent-soft);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+}
+
+.visit-counter[hidden] {
+  display: none;
+}

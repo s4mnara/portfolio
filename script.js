@@ -68,4 +68,23 @@
   } else {
     reveals.forEach((el) => el.classList.add("visible"));
   }
+
+  /* Visit counter */
+  const counter = document.getElementById("visit-counter");
+  const countEl = document.getElementById("visit-count");
+  if (counter && countEl) {
+    const key = "s4mnara-portfolio-visits";
+    const counted = sessionStorage.getItem(key);
+    const action = counted ? "get" : "hit";
+    fetch(`https://countapi.mileshilliard.com/api/v1/${action}/${key}`)
+      .then((res) => (res.ok ? res.json() : Promise.reject(res.status)))
+      .then((data) => {
+        const value = Number(data.value);
+        if (!Number.isFinite(value)) return;
+        sessionStorage.setItem(key, "1");
+        countEl.textContent = value.toLocaleString("pt-BR");
+        counter.hidden = false;
+      })
+      .catch(() => {});
+  }
 })();
